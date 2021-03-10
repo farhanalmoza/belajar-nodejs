@@ -5,8 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
+    "dev": "ls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Farkhan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
 }
